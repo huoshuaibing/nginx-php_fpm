@@ -1,5 +1,6 @@
 # nginx-php_fpm
-Dockerfile	
+Dockerfile
+
 the container is nginx+php-fpm.
 
 it's very cool.
