@@ -1,0 +1,10 @@
+SHELL=/bin/bash
+
+#* * * * * root source /etc/container_environment.sh && [[ "$CRON" == "1" ]] && sudo -u www-data php /work/site/artisan schedule:run >> /tmp/artisan.log 2>&1
+
+# must end with new line
+
+#ops_server_laravel
+#* * * * * /usr/bin/php /data/ops_server_laravel/current/artisan schedule:run >> /dev/null 2>&1
+#api_server
+#* * * * * /usr/bin/php /data/api_server/current/artisan schedule:run >> /dev/null 2>&1
